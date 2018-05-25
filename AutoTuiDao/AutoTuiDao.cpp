@@ -204,7 +204,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	 bool IsSame = std::is_same<typename decltype(Hello::operator()), uint64_t>::value;
 
 	getchar();
-
 	return 0;
 }
 
